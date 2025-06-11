@@ -19,8 +19,8 @@ jobs:
       contents: read
       pull-requests: read
     env:
-      RESULTS_URL: https://atomica-backend-468991892236.asia-south1.run.app/api/v1/cicd-callback/scan-results
-      PR_INFO_URL: https://atomica-backend-468991892236.asia-south1.run.app/api/v1/cicd-callback/pr-info
+      RESULTS_URL: https://18fa-139-5-1-105.ngrok-free.app/api/v1/cicd-callback/scan-results
+      PR_INFO_URL: https://18fa-139-5-1-105.ngrok-free.app/api/v1/cicd-callback/pr-info
     container:
       image: shadab0565/atomica
     if: (github.actor != 'dependabot[bot]')
